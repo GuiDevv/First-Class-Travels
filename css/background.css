@@ -1,0 +1,13 @@
+.background {
+    width: 100%;
+    height: 1080px;
+    background-image: url("../img/BG_BLACK.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .windown{
+    height: 1080px;
+  }

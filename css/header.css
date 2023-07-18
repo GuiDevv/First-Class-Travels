@@ -1,0 +1,72 @@
+:root{
+    --hoverTextColor: #f5a576;
+    --borderHoverColor:#916153;
+}
+
+.main-header{
+    width: 100%;
+    background-color: rgba(255, 30, 255, 1);
+    height: 118px;
+    position: absolute;
+    z-index: 3;
+}
+
+.logo{
+    padding: 0;
+    width: 30%;
+    float:left;
+}
+
+.logo img{
+    padding-left: 50%;
+}
+
+.menu {
+    width: 70%;
+    float: right;
+}
+
+.menu ul{
+    float: right;
+    /*margin-top: 50px;*/
+    margin-right: 50px;
+}
+
+ul{
+    /* padding: 0px !important; */
+}
+
+
+.menu ul li {
+    display: inline-block;
+    color:#8b8b8b;
+    height: 66px;
+    width: 150px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.menu ul li:after { 
+  display:block;
+  content: '';
+  border-bottom: 2px solid var(--borderHoverColor);
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+  height: 33px;
+ }
+
+.menu ul li:hover:after{
+  transform: scaleX(1);  
+}
+
+.menu ul li a:hover{
+    color: var(--borderHoverColor);
+}
+
+.menu ul li a {
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    pointer-events:auto;
+}

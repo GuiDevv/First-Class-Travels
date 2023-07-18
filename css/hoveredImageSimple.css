@@ -1,0 +1,46 @@
+:root{
+    --imageWidth:500px;
+    --imageHeight:635px;
+}
+
+.container-block {
+    display: grid;
+    width: var(--imageWidth);
+    height: var(--imageHeight);
+  }
+
+  .container-block:hover{
+    cursor: pointer;
+  }
+
+  .container-block:hover .content-block{
+    filter: brightness(50%);
+  }
+
+  .content-block{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: brightness(70%);
+    border-radius: 32px;
+  }
+
+  .content-block, .overlay {
+    grid-area: 1 / 1;
+  }
+
+  .overlay{
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .overlay-title{
+    font-size: 24;
+    width: 80%;
+    color:white;
+    align-self: center;
+    text-align: center;
+  }
+  

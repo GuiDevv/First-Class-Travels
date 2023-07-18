@@ -1,0 +1,50 @@
+:root{
+    --buttonWidth: 480px;
+    --buttonHeight: 70px;
+}
+
+.button-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;    
+    align-items: center;
+}
+
+.button-block a{
+  text-decoration: none;
+}
+
+button{
+  width: var(--buttonWidth);
+  height: var(--buttonHeight);
+  margin: 10px;
+  font-size: 24px;
+  text-transform: uppercase;
+  border: 0px solid ;
+  border-radius: 5px;
+  background-image: linear-gradient(to right, #2d2d2d 0%, #111111 51%);
+  color:rgba(255, 255, 255, 0);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  transition: background-color 1s;
+  transition: color 1s;
+  font-family: Palatino;
+}
+
+button img {
+  float: left;
+  padding-left: 200px;
+  padding-right: 50px;
+  transition: padding-left 1s;
+}
+
+button:hover{
+  cursor: pointer;
+  color:white;
+}
+
+button:hover img{
+  padding-left: 100px;
+}

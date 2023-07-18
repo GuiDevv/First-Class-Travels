@@ -1,0 +1,154 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/planejamento.css">
+    <link rel="stylesheet" type="text/css" href="css/message.css">
+    <link rel="stylesheet" type="text/css" href="css/background.css">
+    <link rel="stylesheet" type="text/css" href="css/button.css">
+    <link rel="stylesheet" type="text/css" href="css/overlayBlock.css">
+    <link rel="stylesheet" type="text/css" href="css/hoveredImageSimple.css">
+    <link rel="stylesheet" type="text/css" href="css/carousel.css">
+    <link rel="stylesheet" href="css/flickity.css" media="screen">
+    <title>First Class Travels</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <main>
+            <div class="header-1">
+                <div class="logo"><img src="img/Header/Logo.png" width="118px"></div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="index.html#services-page">Serviços</a></li>
+                        <li><a href="about.html">Sobre Nós</a></li>
+                        <li><a href="#contact-page">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+
+    <div class="background" style="background-image: url('img/Planejamento/MainBackground.png')">
+        <div class="message" style="margin: 0 auto; padding-top: 100px;">
+            <a>Planejamento de Viagens</a>
+            <img src="img/Custom/Divisor.png" width="650px" class="divisor">
+            <p>Desenvolvemos uma consultoria estratégica exclusivamente para este objetivo.</p>
+        </div>
+    </div>
+
+    <div class="background" style="background-image: url('img/Custom/Background.png'); flex-direction: row;">
+        <div class="conteiner-left" style="background-image:none">
+            <a>Funcionamento</a>
+            <img src="img/Custom/Divisor.png" width="500px">
+            <p>Nosso atendimento é dividido em três etapas: consultoria, roteiro
+                detalhado e concierge de viagem.
+                Buscamos constatar os desejos e as necessidades de nossos viajantes, através de um olhar atento
+                aos detalhes, que vão desde
+                a gastronomia até experiencias únicas como um passeio com um carro exclusivo pelo deserto dos
+                Emirados Árabes.
+            </p>
+        </div>
+
+        <div class="conteiner-right">
+            <div class="gallery js-flickity carousel" style="margin: 0 auto; margin-top: 200px;">
+                <div class="gallery-cell">
+                    <div class="container-block" onclick="window.location='#consultoria-page'">
+                        <div class="content-block" style="background-image: url('img/Planejamento/Extra_1.png')"></div>
+                        <div class="overlay">
+                            <a class="overlay-title">Consultoria</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="container-block" onclick="window.location='#roteiro-page'">
+                        <div class="content-block" style="background-image: url('img/Planejamento/Extra_2.png')"></div>
+                        <div class="overlay">
+                            <a class="overlay-title">Roteiros Personalizados</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-cell">
+                    <div class="container-block" onclick="window.location='#concierge-page'">
+                        <div class="content-block" style="background-image: url('img/Planejamento/Extra_3.png')"></div>
+                        <div class="overlay">
+                            <a class="overlay-title">Concierge de Viagens</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background" style="background-image: url('img/Planejamento/SecBackground_1.png'); flex-direction: row;"
+        id="consultoria-page">
+        <div class="conteiner-left">
+            <a>Consultoria</a>
+            <img src="img/Custom/Divisor.png" width="500px">
+            <p>Nós prestamos assessoria relacionada a toda
+                parte “básica” da viagem. Passagens, hotéis, logística, seguro viagem e documentação.
+
+                Fazemos a consultoria e seleção de hotéis de acordo com o seu perfil, as cotações e reservas
+                dos hotéis, das passagens e seguro viagem. Também ajudamos com a logística quando tem mais de um
+                destino,
+                o deslocamento entre esses dois destinos. E prestamos assistência para os itens que forem comprados e
+                reservados pela agência.
+            </p>
+        </div>
+        <div class="conteiner-right"></div>
+    </div>
+
+    <div class="background" style="background-image: url('img/Planejamento/SecBackground_2.png'); flex-direction: row;" id="roteiro-page">
+        <div class="conteiner-left">
+            <a>Roteiro Personalizado</a>
+            <img src="img/Custom/Divisor.png" width="500px">
+            <p>Nós construimos um roteiro diário detalhado da sua programação
+                durante todo o período da viagem.
+                Passeios, pontos turísticos para visitar, restaurantes, guia, carro, motorista,
+                experiências únicas, compras, tudo o que
+                você for fazer durante a viagem. Lembrando que isso é tudo planejado de acordo com o seu
+                perfil e o seu destino. Fazemos
+                um roteiro exclusivo para você, com a programação completa. Além disso, junto com o
+                roteiro enviamos dicas e informações
+                extras sobre o destino com tudo o que precisa saber.
+            </p>
+        </div>
+        <div class="conteiner-right"></div>
+    </div>
+
+    <div class="background" style="background-image: url('img/Planejamento/SecBackground_3.png'); flex-direction: row;" id="concierge-page">
+        <div class="conteiner-left">
+            <a>Concierge de Viagens</a>
+            <img src="img/Custom/Divisor.png" width="500px">
+            <p>No serviço de concierge, nós efetuamos as reservas de tudo o que foi definido no roteiro. 
+                Todos os restaurantes, passeios, compras de tickets quando necessário, vamos cuidar de absolutamente tudo.
+                Interessado? Clique no botão abaixo para ver detalhes desse serviço.
+            </p>
+        </div>
+        <div class="conteiner-right"></div>
+    </div>
+
+    <div class="background" style="background-image: url('img/Planejamento/MainBackground.png')" id="contact-page">
+        <div class="message" style="margin: 0 auto;">
+            <a>Entre em Contato Conosco</a>
+            <img src="img/Custom/Divisor.png" width="650px" class="divisor">
+            <div class="button-block">
+                <a href="https://www.instagram.com/firstclass.travels/" target="_blank">
+                    <button><img src="img/Button/Instagram.png" width="40px">Instagram</button>
+                </a>
+                <a href="https://web.whatsapp.com/send?phone=555193071735" target="_blank">
+                    <button><img src="img/Button/Whatsapp.png" width="40px">Whatsapp</button>
+                </a>
+                <a href="mailto:contatofctravels@gmail.com" target="_blank">
+                    <button><img src="img/Button/Email.png" width="40px">Email</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/flickity.pkgd.min.js"></script>
+
+</body>
+
+</html>

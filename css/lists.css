@@ -1,0 +1,47 @@
+.attribute{
+    display: flex;
+    flex-direction: row !important;
+    font-size: 1.5vw;
+    color: white;
+    height: 165px;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.attribute p {
+    width: 440px;
+    margin: 0;
+    text-align: justify;
+}
+
+.attribute img{
+    width: 100px;
+    height: 100px;
+    padding-right: 40px;
+}
+
+.row-attribute{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.column-attribute{
+    display: flex;
+    flex-direction: column;
+}
+
+.row-divisor{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.row-part{
+    width: 50%;
+    /* background-color: firebrick; */
+}
