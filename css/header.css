@@ -5,7 +5,7 @@
 
 .main-header{
     width: 100%;
-    background-color: rgba(255, 30, 255, 1);
+    background-color: rgba(255, 255, 255, 0);
     height: 118px;
     position: absolute;
     z-index: 3;
@@ -28,12 +28,12 @@
 
 .menu ul{
     float: right;
-    /*margin-top: 50px;*/
+    margin-top: 50px;
     margin-right: 50px;
 }
 
 ul{
-    /* padding: 0px !important; */
+    padding: 0px !important;
 }
 
 
