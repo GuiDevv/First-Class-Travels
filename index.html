@@ -1,5 +1,4 @@
 <html>
-
 <head>
     <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -7,37 +6,38 @@
     <link rel="stylesheet" type="text/css" href="css/background.css">
     <link rel="stylesheet" type="text/css" href="css/button.css">
     <link rel="stylesheet" type="text/css" href="css/hoveredImage.css">
+    <script src="js/header.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>First Class Travels</title>
 </head>
 
 <body>
     <header class="main-header">
         <main>
-            <div class="header-1">
-                <div class="logo"><img src="img/Header/Logo.png" width="118px"></div>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Início</a></li>
-                        <li><a href="index.html#services-page">Serviços</a></li>
-                        <li><a href="about.html">Sobre Nós</a></li>
-                        <li><a href="#contact-page">Contato</a></li>
-                    </ul>
-                </div>
+            <div class="inner_header">
+                <div class="icon_container" id="logo"><img src="img/Header/Logo.png"></div>
+                <div class="icon_container" id="menu"><img src="img/Header/Tab.png" onclick="onMenuClick()"></div>
+                <ul class="navigation" id="navigation_tab">
+                    <a href="index.html"><li>Início</li>
+                    <a href="index.html#services-page"><li>Serviços</li></a>
+                    <a href="about.html"><li>Sobre Nós</li></a>
+                    <a href="index.html#contact-page"><li>Contato</li></a>
+                </ul>
             </div>
         </main>
     </header>
 
     <div class="background" style="background-image: url('img/Index/MainBackground.png')">
-        <div class="message" style="margin: 0 auto; padding-top: 100px;">
+        <!-- <div class="message" style="margin: 0 auto; padding-top: 100px;">
             <a>Seja Bem-vindo a First Class Travels</a>
             <img src="img/Custom/Divisor.png" width="650px" class="divisor">
             <p>Somos uma agência especializada em viagens nacionais e internacionais comatendimento voltado
                 exclusivamente aos roteiros personalizados. Estamos sempre atentos a desenhar cada um de nossos
                 roteiros nos mínimos detalhes, tornando a viagem única e inesquecível.</p>
-        </div>
+        </div> -->
     </div>
 
-    <div class="background" style="background-image: url('img/Custom/Background.png')" id="services-page">
+    <!-- <div class="background" style="background-image: url('img/Custom/Background.png')" id="services-page">
         <div class="conteiner">
             <div class="title">
                 <a>Nossos Serviços</a>
@@ -95,7 +95,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
 
 </body>
 

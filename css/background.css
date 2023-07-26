@@ -1,8 +1,10 @@
 .background {
     width: 100%;
-    height: 1080px;
+    /* height: 1080px; */
+    height: 100%;
     background-image: url("../img/BG_BLACK.png");
     background-size: cover;
+    background-position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
