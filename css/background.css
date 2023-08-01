@@ -1,14 +1,49 @@
 .background {
     width: 100%;
-    /* height: 1080px; */
     height: 100%;
-    background-image: url("../img/BG_BLACK.png");
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
+
+  #background_image {
+    height: 60%;
+    background-image: url("../img/BG_BLACK.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #background_color {
+    height: 50%;
+    background: linear-gradient(0deg, #333a47 0%, #101827 100%);
+  }
+
+  #background_empty {
+    height: 40%;
+  }
+
+  #divider{
+    background-image: url('../img/Custom/Divider.png');
+    background-size: cover;
+    background-position: center;
+    height: 20%;
+    max-height: 200px;
+    min-height: 55px;
+  }
+
+  #divider_color{
+    background: linear-gradient(180deg, #333a47 0%, #101827 100%);
+    height: 20%;
+    max-height: 200px;
+    min-height: 55px;
+  }
+
+  @media screen and (max-width: 850px) {
+    #divider_color{
+      height: 10%;
+    }
+  }
+
 
   .windown{
     height: 1080px;

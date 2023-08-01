@@ -3,15 +3,14 @@ html {
 }
 
 body{
+    min-width: 320px;
     width: 100%;
+    min-height: 568px;
     height: 100%;
     margin:0 auto;
-    font-family: Palatino;
-}
-
-@font-face   {
-  font-family: Palatino; 
-  src: url("../font/PalatinoFont.ttf");
+    font-family: 'Forum', cursive;
+    user-select: none;
+    background-color: #151515;
 }
 
 .col-100{

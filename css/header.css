@@ -87,7 +87,7 @@ header{
 
 .navigation a li{
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: bottom;
     height: 100%;
     color: var(--FCSilver);
     text-decoration: none;
@@ -95,11 +95,13 @@ header{
     text-transform: uppercase;
     pointer-events:auto;
     text-align: center;
+    font-weight: 500;
 }
 
 .navigation a li:after { 
     display:block;
     content: '';
+    height: 35%;
     border-bottom: 2px solid var(--FCSilver);
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
@@ -139,6 +141,10 @@ header{
     #menu {
       display: flex;
     }
+
+    #menu:hover {
+       cursor: pointer;
+      }
   
   }
 

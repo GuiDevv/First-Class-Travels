@@ -1,0 +1,42 @@
+.main_title{
+    font-size: clamp(20px, 4.2vw, 40px);
+    align-self: center;
+    color: #ffffff;
+    letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    width: 80%;
+    
+}
+
+.description{
+    font-size: clamp(14px, 3.3vw, 28px);
+    align-self: center;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    width: 75%;
+    max-width: 1000px;
+    min-width: 271px;
+    user-select:text;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.secondary_title{
+    font-size: clamp(14px, 4.2vw, 36px);
+    align-self: center;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 400;
+    width: 50%;
+}
+
+@media screen and (max-width: 850px) {
+
+.main_title{
+    /* padding-top: 20vh; */
+    padding-top: 120px;
+}
+
+}

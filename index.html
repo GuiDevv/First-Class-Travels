@@ -1,11 +1,12 @@
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="css/header.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/message.css">
+    <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/titles.css">    
     <link rel="stylesheet" type="text/css" href="css/background.css">
-    <link rel="stylesheet" type="text/css" href="css/button.css">
-    <link rel="stylesheet" type="text/css" href="css/hoveredImage.css">
+    <link rel="stylesheet" type="text/css" href="css/widgets.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@200&display=swap');</style>
     <script src="js/header.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>First Class Travels</title>
@@ -27,76 +28,64 @@
         </main>
     </header>
 
-    <div class="background" style="background-image: url('img/Index/MainBackground.png')">
-        <!-- <div class="message" style="margin: 0 auto; padding-top: 100px;">
-            <a>Seja Bem-vindo a First Class Travels</a>
-            <img src="img/Custom/Divisor.png" width="650px" class="divisor">
-            <p>Somos uma agência especializada em viagens nacionais e internacionais comatendimento voltado
-                exclusivamente aos roteiros personalizados. Estamos sempre atentos a desenhar cada um de nossos
-                roteiros nos mínimos detalhes, tornando a viagem única e inesquecível.</p>
-        </div> -->
+    <div class="background" id="background_image" style="background-image: url('img/Index/MainBackground.png')">
+        <h1 class="main_title">First Class Travels</h1>
     </div>
-
-    <!-- <div class="background" style="background-image: url('img/Custom/Background.png')" id="services-page">
-        <div class="conteiner">
-            <div class="title">
-                <a>Nossos Serviços</a>
-                <img src="img/Custom/Divisor.png" class="divisor-title" width="550px">
-            </div>
-            <div class="flex-inline">
-                <div class="container-block" style="margin: 10px;" onclick="window.location='planejamento.html'">
-                    <div class="content-block" style="background-image: url('img/Index/Extra_1.png')"></div>
-                    <div class="overlay">
-                        <a class="overlay-title">Planejamento de Viagens</a>
-                        <div class="overlay-detail">
-                            <p>Um projeto de viagem vai otimizar o seu investimento e construir uma experiência
-                                incrível, sem preocupações.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-block" style="margin: 10px;" onclick="window.location='concierge.html'">
-                    <div class="content-block" style="background-image: url('img/Index/Extra_2.png')"></div>
-                    <div class="overlay">
-                        <a class="overlay-title">Concierge de Viagem</a>
-                        <div class="overlay-detail">
-                            <p>Está finalizando o planejamento de viagem? Então chegou a hora de iniciar o nosso
-                                exclusivo serviço de concierge. Você vai precisar apenas arrumar as malas, o restante é
-                                tudo com a gente!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-block" style="margin: 10px;" onclick="window.location='visto.html'">
-                    <div class="content-block" style="background-image: url('img/Index/Extra_3.png')"></div>
-                    <div class="overlay">
-                        <a class="overlay-title">Visto Americano</a>
-                        <div class="overlay-detail">
-                            <p>Por meio de um processo simples, entretanto muito estratégico, nós faremos você ter as
-                                melhores possibilidades de ter este documento aprovado!</p>
-                        </div>
-                    </div>
-                </div>
+    <div class="background" id="background_empty">
+        <p class="description">Somos uma agência especializada em viagens nacionais e internacionais com atendimento voltado exclusivamente aos roteiros personalizados.</p>
+        <p class="description">Estamos sempre atentos a desenhar cada um de nossos roteiros nos mínimos detalhes, tornando a viagem única e inesquecível.</p>
+    </div>
+    <div class="background" id="divider_color"><h1 class="secondary_title">Como podemos ajudar?</h1></div>
+    <div class="widget_list">
+        <div class="widget" style="background-image: url(img/Widgets/Widget_1.png);"><h1 class="widget_title">Serviços</h1></div>
+        <div class="widget" style="background-image: url(img/Widgets/Widget_2.png);"><h1 class="widget_title">Destino</h1></div>
+        <div class="widget" style="background-image: url(img/Widgets/Widget_3.png);"><h1 class="widget_title">Dúvidas Frequentes</h1></div>
+    </div>
+    <footer class="main-footer">
+        <div class="top-footer">
+            <ul class="footer-list">
+                <h1>FC Travels</h1>
+                <a>Início</a>
+                <a>Serviços</a>
+                <a>Sobre Nós</a>
+                <a>Contato</a>
+            </ul>
+            <ul class="footer-list">
+                <h1>Horário de Atendimento</h1>
+                <a>Segunda à Sexta</a>
+                <a>09:00 - 18:30</a>
+            </ul>
+            <ul class="footer-list">
+                <h1>Destinos</h1>
+                <a>Brasil</a>
+                <a>América</a>
+                <a>Europa</a>
+                <a>África</a>
+                <a>Ásia</a>
+                <a>Oceania</a>
+            </ul>
+            <ul class="footer-list">
+                <h1>Serviços</h1>
+                <a>Planejamento de Viagens</a>
+                <a>Concierge</a>
+                <a>Visto Americano</a>
+                <a>Método SAM</a>
+            </ul>
+            <ul class="footer-list">
+                <h1>Nossas Redes</h1>
+                <a>Instagram</a>
+                <a>WhatsApp</a>
+                <a>(51)993112222</a>
+                <a>Email</a>
+            </ul>
+        </div>
+        <div class="botton-footer">
+            <div class="botton-inner-footer">
+                <img class="icon_footer" src="img/Header/Logo.png">
+                <h2 class="footer_copyright">Copyright © 2023. First Class Travels Agência de Viagem. Todos os Direitos Reservados.</h2>
             </div>
         </div>
-    </div>
-
-    <div class="background" style="background-image: url('img/Index/MainBackground.png')" id="contact-page">
-        <div class="message" style="margin: 0 auto;">
-            <a>Entre em Contato Conosco</a>
-            <img src="img/Custom/Divisor.png" width="650px" class="divisor">
-            <div class="button-block">
-                <a href="https://www.instagram.com/firstclass.travels/" target="_blank">
-                    <button><img src="img/Button/Instagram.png" width="40px">Instagram</button>
-                </a>
-                <a href="https://web.whatsapp.com/send?phone=555193071735" target="_blank">
-                    <button><img src="img/Button/Whatsapp.png" width="40px">Whatsapp</button>
-                </a>
-                <a href="mailto:contatofctravels@gmail.com" target="_blank">
-                    <button><img src="img/Button/Email.png" width="40px">Email</button>
-                </a>
-            </div>
-        </div>
-    </div> -->
-
+    </footer>
 </body>
 
 </html>
