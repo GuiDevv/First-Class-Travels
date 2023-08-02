@@ -31,12 +31,3 @@
     font-weight: 400;
     width: 50%;
 }
-
-@media screen and (max-width: 850px) {
-
-.main_title{
-    /* padding-top: 20vh; */
-    padding-top: 120px;
-}
-
-}

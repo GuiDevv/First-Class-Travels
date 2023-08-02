@@ -1,6 +1,13 @@
+/* PERFEITA */
+
+:root{
+    --Footer_MinWidth: 320px;
+  }
+
 footer{
     background-color: #1E1E1E;
     width: 100%;
+    min-width: var(--Footer_MinWidth);
 }
 
 .footer-container{
@@ -22,8 +29,7 @@ footer{
     color: white;
     gap: 10px;
     margin: 10px;
-    min-width: 100px;
-
+    width: 200px;
 }
 
 .footer-list h1{
@@ -69,11 +75,12 @@ footer{
 }
 
 .footer_copyright{
-    font-size: clamp(10px, 2vw, 20px);
+    font-size: clamp(8px, 2vw, 18px);
     align-self: center;
     color: #ffffff;
     text-align: center;
     font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
 }
 
 @media screen and (max-width: 850px) {
@@ -83,5 +90,9 @@ footer{
 
     .footer-list{
         width: 30%;
+    }
+
+    .icon_footer{
+        padding-right: 10vw;
     }
 }
