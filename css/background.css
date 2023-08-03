@@ -45,4 +45,10 @@
       max-height: 150px;
       height: 20vw;
     }
+
+    #divider{
+      min-height: 75px;
+      max-height: 150px;
+      height: 20vw;
+    }
   }
