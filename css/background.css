@@ -19,7 +19,6 @@
 
   #background_image {
     height: var(--BackgroundImage_Height);
-    background-image: url("../img/BG_BLACK.png");
     background-size: cover;
     background-position: center;
   }

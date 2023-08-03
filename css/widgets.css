@@ -20,14 +20,29 @@
     margin: 2vw; 
     height: 500px;
     width: 265px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.widget_image{
+    height: 100%;
+    width: 100%;
     background-size: cover;
     background-position: center;
-    border-radius: 30px;
-    display: flex;
-}
+    position: absolute;
+    filter: brightness(75%);
+    transition: 1s;
+  }
 
 .widget:hover{
     cursor: pointer;
+}
+
+.widget:hover > .widget_image{
+    filter: brightness(50%);
+    transform: scale(1.2);
 }
 
 .widget_title{
@@ -52,7 +67,7 @@
     .widget{
         max-width: 500px;
         min-width: 250px;
-        width: 80%;
+        width: 70%;
         height: 150px;
     }
 }

@@ -1,3 +1,7 @@
+*{
+  user-select: none;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -7,7 +11,6 @@ body{
     height: 100%;
     margin:0 auto;
     font-family: 'Forum', cursive;
-    user-select: none;
     background-color: #151515;
 }
 
