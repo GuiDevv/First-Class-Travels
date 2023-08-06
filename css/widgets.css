@@ -91,6 +91,10 @@
         max-height: 300px;
         width: 30vw;
         height: 30vw;
+        /* width: 250px;
+        height: 250px; 
+        ISSO PODE FICAR ESTRANHO DEVIDO A ESCALABILIDADE
+        */
     }
 
     #round_list{
