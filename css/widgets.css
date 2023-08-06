@@ -4,6 +4,7 @@
     --WidgetList_Height: 750px;
     --WidgetList_ResponsiveHeight: 620px;
     --WidgetList_MinWidth: 320px;
+    --Widget_Round: 300px;
   }
 
 .widget_list{
@@ -12,12 +13,16 @@
     justify-content: center;
     align-items: center;
     min-width: var(--WidgetList_MinWidth);
-    height: var(--WidgetList_Height);
+    /* height: var(--WidgetList_Height); */
+    flex-wrap: wrap;
     width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-block: 120px;
+    gap: 2vw;
 }
 
 .widget{
-    margin: 2vw; 
     height: 500px;
     width: 265px;
     display: flex;
@@ -58,10 +63,18 @@
     position: relative;
 }
 
+#round{
+    width: 265px;
+    height: 265px;
+    border-radius: 150px;
+    background: linear-gradient(180deg, #333a47 0%, #101827 100%);
+}
+
 @media screen and (max-width: 850px) {
     .widget_list{
         flex-direction: column;
-        height: var(--WidgetList_ResponsiveHeight);
+        /* height: var(--WidgetList_ResponsiveHeight); */
+        margin-block: 65px;
     }
 
     .widget{
@@ -69,5 +82,22 @@
         min-width: 250px;
         width: 70%;
         height: 150px;
+    }
+
+    #round{
+        max-width: 300px;
+        min-width: 200px;
+        min-height: 200px;
+        max-height: 300px;
+        width: 30vw;
+        height: 30vw;
+        /* width: 250px;
+        height: 250px; 
+        ISSO PODE FICAR ESTRANHO DEVIDO A ESCALABILIDADE
+        */
+    }
+
+    #round_list{
+        flex-direction: row;
     }
 }
