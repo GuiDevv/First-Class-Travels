@@ -9,11 +9,12 @@ class Banner extends HTMLElement {
         var Banner_Image2 = this.attributes.BImage2.value;
         var Banner_Image3 = this.attributes.BImage3.value;
         var Banner_Title = this.attributes.BTitle.value;
+        var Path = this.attributes.Path.value;
 
         this.innerHTML = `
-        <link rel="stylesheet" type="text/css" href="/css/slideshow.css">
-        <link rel="stylesheet" type="text/css" href="/css/titles.css">    
-        <link rel="stylesheet" type="text/css" href="/css/background.css">
+        <link rel="stylesheet" type="text/css" href="${Path}css/slideshow.css">
+        <link rel="stylesheet" type="text/css" href="${Path}css/titles.css">    
+        <link rel="stylesheet" type="text/css" href="${Path}css/background.css">
 
         <div class="background" id="background_image">
             <div class="slider">

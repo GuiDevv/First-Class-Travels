@@ -7,11 +7,12 @@ class SingleBanner extends HTMLElement {
 
         var Banner_Image1 = this.attributes.BImage.value;
         var Banner_Title = this.attributes.BTitle.value;
+        var Path = this.attributes.Path.value;
 
         this.innerHTML = `
-        <link rel="stylesheet" type="text/css" href="/css/slideshow.css">
-        <link rel="stylesheet" type="text/css" href="/css/titles.css">    
-        <link rel="stylesheet" type="text/css" href="/css/background.css">
+        <link rel="stylesheet" type="text/css" href="${Path}css/slideshow.css">
+        <link rel="stylesheet" type="text/css" href="${Path}css/titles.css">    
+        <link rel="stylesheet" type="text/css" href="${Path}css/background.css">
       
         <div class="background" id="background_image">
             <div class="slider">

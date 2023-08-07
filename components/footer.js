@@ -5,16 +5,18 @@ class Footer extends HTMLElement {
 
     connectedCallback() {
 
+        var Path = this.attributes.Path.value;
+
         this.innerHTML = `
-        <link rel="stylesheet" type="text/css" href="/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="${Path}css/footer.css">
 
         <footer class="main-footer">
         <div class="top-footer">
             <ul class="footer-list">
                 <h1>FC Travels</h1>
-                <a href="/index.html">Início</a>
+                <a href="${Path}index.html">Início</a>
                 <a>Serviços</a>
-                <a href="/destinos/index.html">Destinos</a>
+                <a href="${Path}destinos/index.html">Destinos</a>
                 <a>Contato</a>
             </ul>
             <ul class="footer-list">
@@ -24,7 +26,7 @@ class Footer extends HTMLElement {
             </ul>
             <ul class="footer-list">
                 <h1>Destinos</h1>
-                <a href="/destinos/brasil/index.html">Brasil</a>
+                <a href="${Path}destinos/brasil/index.html">Brasil</a>
                 <a>América</a>
                 <a>Europa</a>
                 <a>África</a>
@@ -47,7 +49,7 @@ class Footer extends HTMLElement {
         </div>
         <div class="botton-footer">
             <div class="botton-inner-footer">
-                <img class="icon_footer" src="/img/Header/Logo.png">
+                <img class="icon_footer" src="${Path}img/Header/Logo.png">
                 <h2 class="footer_copyright">Copyright © 2023. First Class Travels Agência de Viagem. Todos os Direitos Reservados.</h2>
             </div>
         </div>
