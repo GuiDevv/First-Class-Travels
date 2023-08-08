@@ -17,6 +17,7 @@ class Footer extends HTMLElement {
                 <a href="${Path}index.html">Início</a>
                 <a>Serviços</a>
                 <a href="${Path}destinos/index.html">Destinos</a>
+                <a href="${Path}duvidas/index.html">Dúvidas Frequentes</a>
                 <a>Contato</a>
             </ul>
             <ul class="footer-list">

@@ -1,0 +1,58 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../css/titles.css">    
+    <link rel="stylesheet" type="text/css" href="../css/background.css">
+    <link rel="stylesheet" type="text/css" href="../css/question.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+
+    <script src="../js/header.js"></script>
+    <script src="../js/questions.js"></script>
+    <script src="../components/header.js" type="text/javascript" defer></script>
+    <script src="../components/single-banner.js" type="text/javascript" defer></script>
+    <script src="../components/footer.js" type="text/javascript" defer></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Duvidas</title>
+</head>
+
+<body>
+    <header-component Path="../"></header-component>
+    <single-banner-component Path="../" BImage="../img/Duvidas/Banner_1.png" BTitle="Duvidas Frequentes"></single-banner-component>
+
+    <div class="background" id="background_empty">
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+
+    <div class="background" id="divider"><h1 class="secondary_title">Principais Dúvidas</h1></div>
+
+    <ul class="question_container">
+        <li onclick="onQuestionClick(this)">
+            <div class="question_top"><h1>Como evito ser reprovado no visto?</h1><img src="../img/Duvidas/Polygon.png"></div>
+            <div class="question_bottom">
+                <p>Siga os conselhos dos agentes da FC Travels e nos contrate, evitando assim preencher o DS160 de forma errada.</p>
+                <p>[Observação: Após a primeira rejeição, a FC Travels não se responsabiliza se o cliente for rejeitado novamente].</p>
+            </div>
+        </li>
+        <li onclick="onQuestionClick(this)">
+            <div class="question_top"><h1>Ficar muito tempo sentado afeta minhas costas?</h1><img src="../img/Duvidas/Polygon.png"></div>
+            <div class="question_bottom">
+                <p>Sim, meu bem. Essa atitude é prejudicial a sua saúde. Para evitar o infortúnio, não trabalhe!!</p>
+            </div>
+        </li>
+        <li onclick="onQuestionClick(this)">
+            <div class="question_top"><h1>Como saber se meu irmão me ama?</h1><img src="../img/Duvidas/Polygon.png"></div>
+            <div class="question_bottom">
+                <p>Fácil, peça a ele para desenvolver um site e a cada apresentação via Meet, solicite várias alterações no projeto. Se o indivíduo 
+                    reclamar bastante e acatá-las no final, ele te ama muito. 
+                </p>
+            </div>
+        </li>
+    </ul>
+
+    <footer-component Path="../"></footer-component>
+</body>
+
+</html>
