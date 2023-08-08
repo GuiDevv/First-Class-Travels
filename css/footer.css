@@ -40,7 +40,7 @@ footer{
 }
 
 .footer-list a{
-    font-size: clamp(8px, 3.3vw, 15px);
+    font-size: clamp(8px, 2.3vw, 15px);
     color: #969696;
     font-weight: 600;
     font-family: 'Montserrat', sans-serif;
