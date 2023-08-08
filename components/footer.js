@@ -28,12 +28,14 @@ class Footer extends HTMLElement {
             <ul class="footer-list">
                 <h1>Destinos</h1>
                 <a href="${Path}destinos/brasil/index.html">Brasil</a>
-                <a>América</a>
+                <a>América do Sul</a>
+                <a>América Central</a>
+                <a>América do Norte</a>
                 <a>Europa</a>
                 <a>África</a>
                 <a>Ásia</a>
-                <a>Oceania</a>
                 <a>Oriente Médio</a>
+                <a>Oceania</a>
             </ul>
             <ul class="footer-list">
                 <h1>Serviços</h1>
