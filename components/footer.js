@@ -33,6 +33,7 @@ class Footer extends HTMLElement {
                 <a>África</a>
                 <a>Ásia</a>
                 <a>Oceania</a>
+                <a>Oriente Médio</a>
             </ul>
             <ul class="footer-list">
                 <h1>Serviços</h1>
