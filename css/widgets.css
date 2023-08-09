@@ -70,6 +70,10 @@
     background: linear-gradient(180deg, #333a47 0%, #101827 100%);
 }
 
+#round .widget_title{
+    width: 90%;
+}
+
 @media screen and (max-width: 850px) {
     .widget_list{
         flex-direction: column;
