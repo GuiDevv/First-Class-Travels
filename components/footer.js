@@ -15,10 +15,10 @@ class Footer extends HTMLElement {
             <ul class="footer-list">
                 <h1>FC Travels</h1>
                 <a href="${Path}index.html">Início</a>
-                <a>Serviços</a>
+                <a href="${Path}serviços/index.html">Serviços</a>
                 <a href="${Path}destinos/index.html">Destinos</a>
                 <a href="${Path}duvidas/index.html">Dúvidas Frequentes</a>
-                <a>Contato</a>
+                <a href="${Path}sobre/index.html">Sobre Nós</a>
             </ul>
             <ul class="footer-list">
                 <h1>Horário de Atendimento</h1>
@@ -28,14 +28,14 @@ class Footer extends HTMLElement {
             <ul class="footer-list">
                 <h1>Destinos</h1>
                 <a href="${Path}destinos/brasil/index.html">Brasil</a>
-                <a>América do Sul</a>
-                <a>América Central</a>
-                <a>América do Norte</a>
-                <a>Europa</a>
-                <a>África</a>
-                <a>Ásia</a>
-                <a>Oriente Médio</a>
-                <a>Oceania</a>
+                <a href="${Path}destinos/america-do-sul/index.html">América do Sul</a>
+                <a href="${Path}destinos/america-central/index.html">América Central</a>
+                <a href="${Path}destinos/america-do-norte/index.html">América do Norte</a>
+                <a href="${Path}destinos/europa/index.html">Europa</a>
+                <a href="${Path}destinos/africa/index.html">África</a>
+                <a href="${Path}destinos/asia/index.html">Ásia</a>
+                <a href="${Path}destinos/oriente-medio/index.html">Oriente Médio</a>
+                <a href="${Path}destinos/oceania/index.html">Oceania</a>
             </ul>
             <ul class="footer-list">
                 <h1>Serviços</h1>

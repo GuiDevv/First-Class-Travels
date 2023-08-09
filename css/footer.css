@@ -16,8 +16,8 @@ footer{
 
 .top-footer{
     display: flex;
-    justify-content: space-between;
-    width: 60%;
+    justify-content: center;
+    width: 100%;
     margin: auto;
     flex-wrap: wrap;
     padding-block: 3vh;
@@ -85,6 +85,13 @@ footer{
     text-align: center;
     font-weight: 400;
     font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 1100px) {
+    .top-footer{
+        justify-content: space-between;
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 850px) {
