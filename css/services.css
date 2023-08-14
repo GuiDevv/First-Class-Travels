@@ -1,0 +1,98 @@
+:root{
+    --WidgetList_Height: 750px;
+    --WidgetList_ResponsiveHeight: 620px;
+    --WidgetList_MinWidth: 320px;
+    --Widget_Round: 300px;
+  }
+
+.services_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: var(--WidgetList_MinWidth);
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    margin-block: 120px;
+    gap: 20px;
+}
+
+.service_list{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+.service_list h1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 22;
+    font-family: 'Montserrat';
+}
+
+.service_list p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 90%;
+}
+
+.services_container img {
+    max-width: 350px;
+    max-height: 350px;
+}
+
+.services_container button{
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    background: linear-gradient(90deg, var(--c1, #333a47), var(--c2, #101827) 50%, var(--c1, #333a47)) var(--x, 0)/ 200%;
+    border: 0;
+    transition: background 1s ease;
+}
+
+.services_container button:hover{
+    /* background: linear-gradient(180deg, #473333 0%, #271510 100%); */
+    --c1: #333a47;
+    --c2: #101827;
+    --x: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+ 
+    .services_container img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .service_list{
+        width: 300px;
+        height: 300px;
+    }   
+
+    .service_list h1{
+        height: 40px;
+        font-size: 18;
+    }   
+
+    .service_list p {
+        font-size: 14;
+    }
+
+    .service_list button{
+        height: 40px;
+        font-size: 14;
+    }
+}
