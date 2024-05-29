@@ -79,13 +79,14 @@
         flex-direction: column;
         /* height: var(--WidgetList_ResponsiveHeight); */
         margin-block: 65px;
+        gap: 15px;
     }
 
     .widget{
         max-width: 500px;
         min-width: 250px;
         width: 70%;
-        height: 150px;
+        height: 200px;
     }
 
     #round{
