@@ -14,40 +14,39 @@ class Footer extends HTMLElement {
         <div class="top-footer">
             <ul class="footer-list">
                 <h1>FC Travels</h1>
-                <a href="${Path}index.html">Início</a>
-                <a href="${Path}serviços/index.html">Serviços</a>
-                <a href="${Path}destinos/index.html">Destinos</a>
-                <a href="${Path}duvidas/index.html">Dúvidas Frequentes</a>
-                <a href="${Path}sobre/index.html">Sobre Nós</a>
+                <a href="${Path}">Início</a>
+                <a href="${Path}serviços/">Serviços</a>
+                <a href="${Path}destinos/">Destinos</a>
+                <a href="${Path}duvidas/">Dúvidas Frequentes</a>
+                <a href="${Path}sobre/">Sobre Nós</a>
             </ul>
             <ul class="footer-list">
                 <h1>Horário de Atendimento</h1>
-                <a>Segunda à Sexta</a>
-                <a>09:00 - 17:00</a>
+                <a id="unhover">Segunda à Sexta</a>
+                <a id="unhover">09:00 - 17:00</a>
             </ul>
             <ul class="footer-list">
                 <h1>Destinos</h1>
-                <a href="${Path}destinos/brasil/index.html">Brasil</a>
-                <a href="${Path}destinos/america-do-sul/index.html">América do Sul</a>
-                <a href="${Path}destinos/america-central/index.html">América Central</a>
-                <a href="${Path}destinos/america-do-norte/index.html">América do Norte</a>
-                <a href="${Path}destinos/europa/index.html">Europa</a>
-                <a href="${Path}destinos/africa/index.html">África</a>
-                <a href="${Path}destinos/asia/index.html">Ásia</a>
-                <a href="${Path}destinos/oriente-medio/index.html">Oriente Médio</a>
-                <a href="${Path}destinos/oceania/index.html">Oceania</a>
+                <a href="${Path}destinos/brasil/">Brasil</a>
+                <a href="${Path}destinos/america-do-sul/">América do Sul</a>
+                <a href="${Path}destinos/america-central/">América Central</a>
+                <a href="${Path}destinos/america-do-norte/">América do Norte</a>
+                <a href="${Path}destinos/europa/">Europa</a>
+                <a href="${Path}destinos/africa/">África</a>
+                <a href="${Path}destinos/asia/">Ásia</a>
+                <a href="${Path}destinos/oriente-medio/">Oriente Médio</a>
+                <a href="${Path}destinos/oceania/">Oceania</a>
             </ul>
             <ul class="footer-list">
                 <h1>Serviços</h1>
-                <a>Planejamento de Viagens</a>
-                <a>Método SAM</a>
-                <a>Visto Americano</a>
+                <a href="${Path}serviços/planejamento">Planejamento de Viagens</a>
+                <a href="${Path}serviços/metodo-sam">Método SAM</a>
+                <a href="${Path}serviços/visto-americano">Visto Americano</a>
             </ul>
             <ul class="footer-list">
                 <h1>Nossas Redes</h1>
                 <a href="https://www.instagram.com/firstclass.travels/" target="_blank">Instagram</a>
                 <a href="https://web.whatsapp.com/send?phone=555193649119" target="_blank">WhatsApp</a>
-                <a>(51) 9364-9119</a>
                 <a href="mailto:contatofctravels@gmail.com" target="_blank">Email</a>
             </ul>
         </div>
