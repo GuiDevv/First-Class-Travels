@@ -79,13 +79,12 @@
         flex-direction: column;
         /* height: var(--WidgetList_ResponsiveHeight); */
         margin-block: 65px;
-        gap: 3vw;
     }
 
     .widget{
         max-width: 500px;
         min-width: 250px;
-        width: 70%;
+        width: 80%;
         height: 200px;
     }
 
@@ -104,12 +103,5 @@
 
     #round_list{
         flex-direction: row;
-    }
-}
-
-@media screen and (max-width: 400px) {
-
-    .widget{
-        height: 150px;
     }
 }

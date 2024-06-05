@@ -31,6 +31,7 @@
     flex-direction: column;
     justify-content: space-between;
     color: white;
+    background-color: #181818;
     align-items: center;
 }
 
@@ -122,14 +123,21 @@
 
     .service{
         flex-direction: column;
+        min-width: 300px;
+        width: 70%;
     }
 
     .service_list{
         margin-left: 0px;
+        width: 100%;
     }
 
     .services_container img{
-        width: 300px;
-        height: 250px;
+        min-width: 300px;
+        min-height: 250px;
+        max-width: 500px;
+        width: 100%;
+        height: 45vw;
+        object-fit: cover;
     }
 }
